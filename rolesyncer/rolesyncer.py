@@ -92,7 +92,7 @@ class RoleSyncer(commands.Cog):
             except Exception as e:
                 self.log.exception(e, exc_info=True)
 
-    @commands.group(name="sync")
+    @commands.group(name="rolesync")
     async def rolesyncer(self, ctx):
         """Sync roles"""
         pass
